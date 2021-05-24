@@ -11,7 +11,7 @@ function pageloaded()
 
 function hFun()
 {
-    document.getElementById("personal").innerHTML = "<h1>Hobby : งานอดิเรก</h1><p>ส่วนใหญ่จะใช้เวลาว่างไปกับการอ่านหนังสือการ์ตูน ฟังเพลง และเล่นเกม กับเพื่อน ซึ่งส่วนใหญ่จะเป็นการเล่นเกมซะมากกว่า เกมที่เล่นส่วนใหญ่นั้นก็จะไม่ได้เฉพาะเจาะจงอะไรมาก จะออกแนวเล่นตามเพื่อนซะส่วนใหญ่ แต่ก็จะมีเกมที่เล่นเป็นหลักๆอยู่ก็คือเกม DOTA2 ที่จะจริงจังเป็นพิเศษ และก็ชอบที่จะไปหาเกมแปลกๆมาเล่น เพราะชอบที่จะเห็นเกมอื่นๆในท้องตลาดที่มีความเป็นเอกลักษณ์ และคอนเซปแปลกๆของเกมนั้นๆ เพราะว่าเราเรียนพัฒนาเกมเลยคิดว่าควรจะรู้จักเกมแนวต่างๆให้เยอะ เพือมันจะได้เป็นแนวทางของเราในอนาคต</p>"
+    document.getElementById("personal").innerHTML = "<h1>Hobby : งานอดิเรก</h1>ส่วนใหญ่จะใช้เวลาว่างไปกับการอ่านหนังสือการ์ตูน ฟังเพลง และเล่นเกม กับเพื่อน ซึ่งส่วนใหญ่จะเป็นการเล่นเกมซะมากกว่า เกมที่เล่นส่วนใหญ่นั้นก็จะไม่ได้เฉพาะเจาะจงอะไรมาก จะออกแนวเล่นตามเพื่อนซะส่วนใหญ่ แต่ก็จะมีเกมที่เล่นเป็นหลักๆอยู่ก็คือเกม DOTA2 ที่จะจริงจังเป็นพิเศษ และก็ชอบที่จะไปหาเกมแปลกๆมาเล่น เพราะชอบที่จะเห็นเกมอื่นๆในท้องตลาดที่มีความเป็นเอกลักษณ์ และคอนเซปแปลกๆของเกมนั้นๆ เพราะว่าเราเรียนพัฒนาเกมเลยคิดว่าควรจะรู้จักเกมแนวต่างๆให้เยอะ เพือมันจะได้เป็นแนวทางของเราในอนาคต"
     +"<div class='pichobby'>"
     +"<img src='dota2.png'>"
     +"<img src='CSGO-Logo.png'>"
@@ -24,12 +24,7 @@ function hFun()
 
 function aFun()
 {
-    document.getElementById("personal").innerHTML = "<h1>Attention : ความสนใจ</h1>"
-    +"<p class='textcenter'>มีความสนในในด้านการพัฒนาเกมในส่วนของ</p>"
-    +"<p class='textcenter'>Game Developer ด้วยโปรแกรม Unity3D</p>"
-    +"<p class='textcenter'>Game Design</p>"
-    +"<div class='pichobby'>"
-    +"<img src='unity.png'>";
+    document.getElementById("personal").innerHTML = "<h1>Attention : ความสนใจ</h1>มีความสนในในด้านการพัฒนาเกมในส่วนของ <br>Game Developer ด้วยโปรแกรม Unity3D <br> Game Design";
     document.getElementById("Hobby").className = "notactive";
     document.getElementById("Attention").className = "active";
     document.getElementById("Skill").className ="notactive";
